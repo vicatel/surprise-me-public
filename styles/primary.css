@@ -1,0 +1,252 @@
+a {
+  text-decoration: none !important;
+  color: whitesmoke !important;
+  transition: color 0.3s ease, transform 0.3s ease !important;
+}
+
+
+
+.row>div {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  /* border: 0.1em dotted red; */
+  box-shadow: 1px 1px 2px 0px rgba(59, 65, 83, 0.95);
+  /* padding-left: 0px; */
+  border-radius: 10px;
+}
+
+.item-light {
+  border: 3px solid rgba(195, 195, 196, 0.757);
+  border-radius: 15px;
+  transition: box-shadow 0.6s;
+}
+
+.item-dark {
+  border: 3px solid #8195c7;
+  border-radius: 15px;
+  transition: box-shadow 0.6s;
+}
+
+.item-dark>.container>.row>.col-md-8>div {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  /* border: 0.1em dotted red; */
+  /* background-color: rebeccapurple !important; */
+  /* box-shadow: 1px 1px 2px 0px red; */
+
+  /* padding-left: 0px; */
+  border-radius: 10px;
+}
+ .rounded {
+  /* background-color: violet; */
+  box-shadow: 0px 0px 0px 0px rgba(59, 65, 83, 0.95) !important;
+
+}
+.form-check-input:checked {
+  background-color: #707faf !important;
+}
+.row {
+  padding: 0px !important;
+}
+.col {
+  /* padding: 0px 12px !important; */
+}
+.row>.col {
+  /* background-color: chocolate; */
+  /* box-shadow: 0px 0px 0px 0px red !important; */
+
+}
+
+
+
+
+.item-dark:hover,
+.item-light:hover {
+  box-shadow: 0 0 10px 10px rgba(106, 137, 217, 0.95);
+  /* transform: scale(1.05); */
+}
+
+strong {
+  color: rgba(38, 69, 154, 0.95);
+}
+
+
+.container {
+  margin-left: 10px !important;
+}
+
+details>summary {
+  /* padding: 4px; */
+  width: 200px;
+  border: none;
+  /* box-shadow: 1px 1px 1px #bbbbbb; */
+  cursor: pointer;
+}
+
+details>p {
+  /* background-color: black; */
+  padding: 4px;
+  margin: 0;
+  color: gray;
+  font-size: 0.8em;
+
+
+  /* box-shadow: 1px 1px 1px #bbbbbb; */
+}
+
+
+.image-container {
+  display: inline-block;
+  /* overflow: hidden;  */
+  /* Prevents image overflow */
+}
+
+.zoom-image {
+  transition: transform 0.3s;
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.8s;
+}
+
+svg {
+  height: 20px !important;
+}
+
+.alert-light {
+  background-color: rgba(43, 60, 107, 0.76) !important;
+  /* background-color: rgba(38, 69, 154, 0.95) !important; */
+  color: white !important;
+  width: 50% !important;
+}
+
+
+
+nav>div>a:hover {
+  border: 0px;
+}
+
+/* h1 {
+  animation: rotate 2s linear 1;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+} */
+
+/* Mobile */
+@media (max-width: 700px) {
+  .row>div {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    /* box-shadow: 1px 1px 2px 0px aqua; */
+
+    /* padding-left: 0px; */
+    border-radius: 10px;
+  }
+
+  .container {
+    margin-left: 0px !important;
+    /* padding: 0px 6px !important; */
+  }
+
+  summary {
+    padding-right: 35px;
+
+  }
+
+  .alert-light {
+    width: 100% !important;
+    padding-left: 5px !important;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {}
+
+
+
+.app {
+  /* display: flex; */
+  /* place-items: center; */
+  /* margin-top: 10%; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* place-items: center; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-items: center; */
+  padding-bottom: 30%;
+  padding-left: 10px;
+  position: relative;
+  z-index: 0;
+
+  /* --background-color: white; */
+}
+
+body {
+  /* background-color: var(--background-color) !important; */
+}
+
+.wishlist {
+  text-align: center;
+  color: white;
+  padding: 5% 15px 0px 15px;
+  height: 100vh;
+}
+
+#home {
+  width: 90%;
+  border-color: #707faf;
+}
+
+canvas {
+  z-index: -2;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.spinner-border {
+  border: var(--bs-spinner-border-width) solid #253688 !important;
+  border-right-color: transparent !important;
+  width: 5rem !important;
+  height: 5rem !important;
+  margin: 10% 37%;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 90%;
+}
+
+
+
+#username {
+  width: 200px;
+}
+
+input::file-selector-button {
+  /* font-weight: bold; */
+  color: black;
+  background-color: whitesmoke;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+
+.col-md-8 {
+  box-shadow: 0px 0px 0px 0px aqua !important;
+
+}

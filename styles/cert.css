@@ -1,0 +1,130 @@
+
+
+a {
+    text-decoration: none !important;
+    color: whitesmoke !important;
+    transition: color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  
+  
+  .row>div {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    /* border: 0.1em dotted red; */
+    box-shadow: 1px 1px 2px 0px rgba(13, 26, 66, 0.95);
+    /* padding-left: 0px; */
+    border-radius: 10px;
+  }
+  
+  .certificate {
+    border: 3px solid rgba(1, 11, 74, 0.757);
+    border-radius: 5px;
+    transition: box-shadow 0.6s;
+    width: 85%;
+    padding: 0px 15px;
+
+  }
+  .certificate:hover {
+    box-shadow: 0 0 10px 10px rgba(38, 69, 154, 0.95);
+
+  }
+  .progress-bar {
+    background-color: rgba(38, 69, 154, 0.95) !important;
+  }  
+  
+  .container {
+    margin-left: 10px !important;
+  }
+  
+  details>summary {
+    /* padding: 4px; */
+    /* width: 200px; */
+    border: none;
+    /* box-shadow: 1px 1px 1px #bbbbbb; */
+    cursor: pointer;
+  }
+  
+  details>p {
+    /* background-color: black; */
+    padding: 4px;
+    margin: 0;
+    color: gray;
+    font-size: 0.8em;
+    /* box-shadow: 1px 1px 1px #bbbbbb; */
+  }
+  
+  
+  .image-container {
+    display: inline-block;
+    /* overflow: hidden;  */
+    /* Prevents image overflow */
+  }
+  
+  .zoom-image {
+    transition: transform 0.3s;
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform 0.8s;
+  }
+  
+  svg {
+    height: 20px !important;
+  }
+  
+  .alert-light {
+    background-color: rgba(43, 60, 107, 0.76) !important;
+    /* background-color: rgba(38, 69, 154, 0.95) !important; */
+    color: white !important;
+    width: 50% !important;
+  }
+  
+  
+  
+  nav > div > a:hover {
+  border: 0px;
+  }
+  
+  /* h1 {
+    animation: rotate 2s linear 1;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(0deg);
+    }
+  } */
+  
+  /* Mobile */
+  @media (max-width: 700px) {
+    .row>div {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+    /* box-shadow: 1px 1px 2px 0px aqua; */
+  
+      /* padding-left: 0px; */
+      border-radius: 10px;
+    }
+  
+    .container {
+      margin-left: 0px !important;
+      /* padding: 0px 6px !important; */
+    }
+  
+    summary {
+      padding-right: 35px;
+  
+    }
+  
+    .alert-light {
+      width: 100% !important;
+      padding-left: 5px !important;
+    }
+  }
+  
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {}
